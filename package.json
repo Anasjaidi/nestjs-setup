@@ -34,7 +34,7 @@
     "rxjs": "^7.2.0"
   },
   "prisma": {
-    "schema": "src/databases/prisma/schema.prisma"
+    "schema": "src/databases/prisma/schemas/schema.prisma"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
