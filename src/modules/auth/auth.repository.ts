@@ -9,7 +9,7 @@ export class AuthRepository {
     this.users = prisma.user;
   }
 
-  async createUser(user: Omit<User, 'uid'>) {
+  async createUser(user: Omit<User, 'uid' | 'passwordChangeAt'>) {
     return this.users.create({ data: user });
   }
 }
