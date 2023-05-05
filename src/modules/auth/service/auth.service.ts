@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { AuthRepository } from './auth.repository';
-import { AuthNewUserDto } from './dto/auth-new-user-dto';
+import { AuthRepository } from '../repository/auth.repository';
+import { AuthNewUserDto } from '../dto/auth-new-user-dto';
 
 @Injectable()
 export class AuthService {
